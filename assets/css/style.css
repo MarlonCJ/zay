@@ -1,0 +1,127 @@
+:root{
+    --color1:#59AB6E;
+    --color2: #212934;
+    --color3: #E9EEF5;
+    --color4:#212934;
+    --color5:#fff;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.topbar{
+    background-color: var(--color2);
+}
+
+.topbar-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.contact-info{
+    color: var(--color5);
+    font-size: 12px;
+}
+
+.contact-info span{
+    padding: 0 10px;
+}
+
+.contact-info i{
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.social-icons a{
+    display: inline-block;
+    padding: 0 5px;
+    color: var(--color5);
+    font-size: 12px;
+}
+
+
+/* MAIN MENU */
+
+
+.main-header{
+    background-color: var(--color5);
+    background-color: var(--color5);
+    box-shadow: 0px 5px 10px 0px rgb(173, 173, 173) ;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.logo{
+    flex: 1 1 20%;
+}
+
+.logo img{
+    width: 90px;
+}
+
+.main-nav{
+    flex: 1 1 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link{
+    padding: 0 10px;
+    color: var(--color2);
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: var(--color1);
+    transition: all ease 0.2s;
+}
+
+.nav-actions{
+    flex: 1 1 20%;
+    text-align: end;
+}
+
+.action-link{
+    padding: 0 10px;
+    color: var(--color2);
+} */
+
+/* HERO SLIDER */
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .topbar{
+        display: none;
+    }
+}
